@@ -1,0 +1,17 @@
+{
+	"name": "DS_CPYSOURCE_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_CPYSOURCE_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "vb_tbl_job_dtls"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

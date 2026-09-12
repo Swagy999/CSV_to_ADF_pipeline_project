@@ -1,0 +1,13 @@
+{
+	"name": "DB_AZURESQL_SRCDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DB_AZURESQL_SRCDB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

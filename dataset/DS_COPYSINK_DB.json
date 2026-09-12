@@ -1,0 +1,17 @@
+{
+	"name": "DS_COPYSINK_DB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_CPYSOURCE_DB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "vb_tbl_trigger"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
